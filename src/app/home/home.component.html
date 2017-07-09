@@ -1,0 +1,18 @@
+<clr-datagrid>
+    <clr-dg-column>Serial No</clr-dg-column>
+    <clr-dg-column aria-colspan="4">File Name</clr-dg-column>
+    <clr-dg-column>Process</clr-dg-column>
+    <clr-dg-column>Action</clr-dg-column>
+    <clr-dg-row *ngFor="let user of users">
+        <clr-dg-cell>{{user.id}}</clr-dg-cell>
+        <clr-dg-cell>{{user.name}}</clr-dg-cell>
+        <clr-dg-cell><div class="progress labeled">
+            <progress max="100" value="0" data-displayval="50%"></progress></div></clr-dg-cell>
+        <clr-dg-cell>{{user.color}}</clr-dg-cell>
+    </clr-dg-row>
+
+    <clr-dg-footer >
+            <button class="btn btn-primary-outline">Digitize</button>
+            <button class="btn btn-danger">Delete</button>
+    </clr-dg-footer>
+</clr-datagrid>

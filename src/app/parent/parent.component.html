@@ -1,0 +1,13 @@
+<div>
+   <h1>Parent</h1>
+  <app-child [message]="message" (messageEvent)="receiveMessage($event)"></app-child>
+
+  <h2>Message from Children</h2>
+  {{cmessage}}
+  <button class="btn btn-default" (click)="broadcast()">Broadcast</button>
+
+
+</div>
+
+
+   

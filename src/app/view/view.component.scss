@@ -1,0 +1,44 @@
+.display-container{
+}
+.no-padding{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+.filename-view{
+    display: inline
+}
+
+.modal-body{
+    height:120vh !important;
+    overflow-y: hidden !important;
+    overflow-x:  hidden !important;
+}
+.actions-button-group{
+    margin-left: 35%
+}
+.card-header{
+    
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.card-block{
+    height:100vh;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+}
+
+.icon-fullscreen{
+    width: 36px;
+    height: 36px;
+    margin-top: 12px;
+    margin-right: 11px;
+}
+.list-group >li{
+    display: inline
+}

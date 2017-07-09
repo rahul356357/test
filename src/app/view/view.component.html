@@ -1,0 +1,83 @@
+
+<nav class="subnav">
+<ul class="list-group">
+  <li><clr-icon shape="house"></clr-icon>
+</li>
+  <li> <clr-icon shape="caret" dir="left"></clr-icon>
+ </li>
+</ul>
+  
+ 
+</nav>
+
+<div class="row no-padding">
+    <div class="col-lg-6 col-md-12 col-sm-12 ">
+        <div class="card">
+            <div class="card-header">
+                <header class="header header-5">
+                    <div class="branding">
+                        <div class="title">Filename</div>
+                    </div>
+                    <div class="header-actions">
+                        <span aria-haspopup="true" role="tooltip" class="tooltip tooltip-sm" > 
+
+                        
+                        <clr-icon shape="resize" size="36" class="icon-fullscreen is-error"></clr-icon>
+                        <span class="tooltip-content">FullScreen</span>
+     </span>
+
+                    </div>
+                </header>
+
+            </div>
+            <div class="card-block">
+                <object width="100%" height="100%" data="../assets/test1.pdf" type="application/pdf"></object>
+
+            </div>
+
+        </div>
+    </div>
+    <div class=" col-lg-6 col-md-12 col-sm-12">
+        <div class="card">
+            <div class="card-header">
+                <header class="header header-5">
+                    <div class="branding">
+                        <div class="title">Filename</div>
+                    </div>
+                    <div class="header-actions">
+ <span aria-haspopup="true" role="tooltip" class="tooltip tooltip-sm tooltip-top-left" > 
+
+                        
+                        <clr-icon shape="resize" size="36" class="icon-fullscreen is-error"></clr-icon>
+                        <span class="tooltip-content">FullScreen</span>
+     </span>
+
+
+
+                    </div>
+                </header>
+
+
+            </div>
+            <div class="card-block">
+                <object width="100%" height="100%" data="../assets/test1.pdf" type="application/pdf"></object>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row ">
+    <div class="actions-button-group">
+        <button class="btn btn-primary"> <clr-icon shape="caret" dir="left"></clr-icon>Previous</button>
+        <button class="btn btn-default">View Document</button>
+        <button class="btn btn-primary">Next<clr-icon shape="caret" dir="right"></clr-icon></button>
+
+    </div>
+
+</div>
+<clr-modal [(clrModalOpen)]="basic" [clrModalSize]="'xl'">
+    <h3 class="modal-title">Filename</h3>
+    <div class="modal-body view-modal">
+        <object width="100%" height="100%" data="../assets/test1.pdf" type="application/pdf"></object>
+    </div>
+</clr-modal>
